@@ -18,42 +18,39 @@
                         <rect key="frame" x="0.0" y="0.0" width="414" height="736"/>
                         <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
                         <subviews>
-                            <containerView opaque="NO" contentMode="scaleToFill" fixedFrame="YES" translatesAutoresizingMaskIntoConstraints="NO" id="qTm-nb-sNi">
-                                <frame key="frameInset" minX="200" height="150" maxX="4" maxY="86"/>
-                                <autoresizingMask key="autoresizingMask" widthSizable="YES" flexibleMinY="YES"/>
-                                <color key="backgroundColor" red="1" green="1" blue="1" alpha="1" colorSpace="calibratedRGB"/>
-                                <connections>
-                                    <segue destination="IK1-2z-tXP" kind="embed" id="gXf-Ze-iXf"/>
-                                </connections>
-                            </containerView>
                             <imageView userInteractionEnabled="NO" contentMode="scaleAspectFit" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" image="nube.png" translatesAutoresizingMaskIntoConstraints="NO" id="f3A-yU-cEf">
                                 <frame key="frameInset" minX="20" minY="20" width="400" height="300"/>
                                 <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
                             </imageView>
+                            <imageView userInteractionEnabled="NO" contentMode="scaleAspectFit" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" image="cientifico.png" translatesAutoresizingMaskIntoConstraints="NO" id="xrV-RU-ogL">
+                                <frame key="frameInset" minX="85.319999999999936" minY="250" width="240.00000000000006" height="400"/>
+                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                            </imageView>
+                            <containerView opaque="NO" contentMode="scaleToFill" fixedFrame="YES" translatesAutoresizingMaskIntoConstraints="NO" id="qTm-nb-sNi">
+                                <frame key="frameInset" minX="98" height="148" maxX="104" maxY="88"/>
+                                <autoresizingMask key="autoresizingMask" widthSizable="YES" flexibleMinY="YES"/>
+                                <color key="backgroundColor" red="1" green="1" blue="1" alpha="1" colorSpace="calibratedRGB"/>
+                            </containerView>
                             <imageView userInteractionEnabled="NO" contentMode="scaleAspectFit" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" image="hamburguesa.png" translatesAutoresizingMaskIntoConstraints="NO" id="v8A-g2-Gw6">
                                 <frame key="frameInset" minX="60" minY="5" width="300" height="200"/>
                                 <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
                             </imageView>
-                            <imageView userInteractionEnabled="NO" contentMode="scaleAspectFit" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" image="cientifico.png" translatesAutoresizingMaskIntoConstraints="NO" id="xrV-RU-ogL">
-                                <frame key="frameInset" minX="75" minY="250" width="240" height="400"/>
-                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
-                            </imageView>
-                            <label opaque="NO" userInteractionEnabled="NO" contentMode="center" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" text="Plato" lineBreakMode="tailTruncation" numberOfLines="2" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="VRq-g5-Pdq" userLabel="Hambur">
-                                <frame key="frameInset" minX="210" minY="590" width="190" height="20.333333333333332"/>
+                            <label opaque="NO" userInteractionEnabled="NO" contentMode="center" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" text="Plato" textAlignment="center" lineBreakMode="tailTruncation" numberOfLines="2" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="VRq-g5-Pdq" userLabel="Hamburguesa">
+                                <frame key="frameInset" minX="111.33333333333333" minY="550" width="190" height="20.333333333333332"/>
                                 <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
                                 <fontDescription key="fontDescription" type="system" pointSize="15"/>
                                 <nil key="textColor"/>
                                 <nil key="highlightedColor"/>
                             </label>
-                            <label opaque="NO" userInteractionEnabled="NO" contentMode="center" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" text="Bebida" lineBreakMode="tailTruncation" numberOfLines="2" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="537-rV-AFb">
-                                <frame key="frameInset" minX="210" minY="550" width="190" height="21"/>
+                            <label opaque="NO" userInteractionEnabled="NO" contentMode="center" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" text="Bebida" textAlignment="center" lineBreakMode="tailTruncation" numberOfLines="2" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="537-rV-AFb">
+                                <frame key="frameInset" minX="111.33333333333333" minY="590" width="190" height="21"/>
                                 <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
                                 <fontDescription key="fontDescription" type="system" pointSize="15"/>
                                 <nil key="textColor"/>
                                 <nil key="highlightedColor"/>
                             </label>
                             <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" usesAttributedText="YES" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="cn4-V8-gZe">
-                                <frame key="frameInset" minX="200" minY="500" width="210" height="50"/>
+                                <frame key="frameInset" minX="99.759689922499206" minY="499.99999999999977" width="209.99999999999997" height="50.000000000000114"/>
                                 <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
                                 <attributedString key="attributedText">
                                     <fragment content="Precio">
@@ -66,45 +63,30 @@
                                 </attributedString>
                                 <nil key="highlightedColor"/>
                             </label>
-                            <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" reversesTitleShadowWhenHighlighted="YES" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="g29-A7-avw">
-                                <frame key="frameInset" minX="106.33333333333333" minY="680" width="200" height="30"/>
+                            <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" reversesTitleShadowWhenHighlighted="YES" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="g29-A7-avw" userLabel="QuieroUnaHamburguesa">
+                                <frame key="frameInset" minX="5.6821705426542621" minY="680" width="400" height="29.999999999999829"/>
                                 <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
                                 <fontDescription key="fontDescription" name="Helvetica-Bold" family="Helvetica" pointSize="18"/>
                                 <size key="titleShadowOffset" width="1" height="1"/>
-                                <state key="normal" title="Provocame">
+                                <state key="normal" title="Quiero Una Hamburguesa !!!">
                                     <color key="titleShadowColor" red="1" green="1" blue="1" alpha="1" colorSpace="calibratedRGB"/>
                                 </state>
                                 <connections>
-                                    <action selector="dameUnPais" destination="BYZ-38-t0r" eventType="touchUpInside" id="KZ8-lA-OER"/>
-                                    <action selector="dameUnPrecio" destination="BYZ-38-t0r" eventType="touchUpInside" id="Thh-MV-dOl"/>
-                                    <action selector="dameUnaHamburguesa" destination="BYZ-38-t0r" eventType="touchUpInside" id="Bym-GZ-7Fu"/>
+                                    <action selector="dameUnPais" destination="BYZ-38-t0r" eventType="touchUpInside" id="JIU-u3-VD9"/>
                                 </connections>
                             </button>
                         </subviews>
-                        <color key="backgroundColor" red="0.98431372549999996" green="0.62352941179999999" blue="0.047058823530000002" alpha="1" colorSpace="calibratedRGB"/>
+                        <color key="backgroundColor" red="0.94117647058823528" green="0.62745098039215685" blue="0.0" alpha="1" colorSpace="calibratedRGB"/>
                     </view>
                     <connections>
-                        <outlet property="Hambur" destination="VRq-g5-Pdq" id="Idn-R4-loK"/>
-                        <outlet property="Pais" destination="537-rV-AFb" id="cgR-iq-zmS"/>
-                        <outlet property="Precios" destination="cn4-V8-gZe" id="y0F-qX-0Ze"/>
+                        <outlet property="Hamburguesa" destination="VRq-g5-Pdq" id="FJ6-Xj-A3N"/>
+                        <outlet property="Pais" destination="537-rV-AFb" id="6Pa-xb-ac7"/>
+                        <outlet property="Precios" destination="cn4-V8-gZe" id="Ggt-cr-Urx"/>
                     </connections>
                 </viewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="dkx-z0-nzr" sceneMemberID="firstResponder"/>
             </objects>
             <point key="canvasLocation" x="118.84057971014494" y="123.91304347826087"/>
-        </scene>
-        <!--View Controller-->
-        <scene sceneID="ywZ-Jb-IAC">
-            <objects>
-                <viewController id="IK1-2z-tXP" sceneMemberID="viewController">
-                    <view key="view" contentMode="scaleToFill" id="Fwi-EQ-sCx">
-                        <rect key="frame" x="0.0" y="0.0" width="210" height="150"/>
-                        <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
-                        <color key="backgroundColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
-                    </view>
-                </viewController>
-                <placeholder placeholderIdentifier="IBFirstResponder" id="tcQ-rF-gic" userLabel="First Responder" sceneMemberID="firstResponder"/>
-            </objects>
         </scene>
     </scenes>
     <resources>
