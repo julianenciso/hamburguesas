@@ -11,13 +11,13 @@ import UIKit
 class ViewController: UIViewController {
 
     @IBOutlet weak var Pais: UILabel!
-    @IBOutlet weak var Hambur: UILabel!
+    @IBOutlet weak var Hamburguesa: UILabel!
     @IBOutlet weak var Precios: UILabel!
     
     let colores = Colores()
-    let paises = Paises()
+    let paises = ColeccionDePaises()
     let precios = Prices()
-    let hamburguesas = Hamburguesitas()
+    let hamburguesas = ColeccionDeHamburguesas()
     
     
     override func viewDidLoad() {
@@ -31,17 +31,9 @@ class ViewController: UIViewController {
     }
     @IBAction func dameUnPais(){
         Pais.text = paises.regresaPais();
-        let colorAleatorio = colores.regresaColorAleatorio()
-        /*let colorAleatorio2 = colores.regresaColorAleatorio()*/
-        view.backgroundColor = colorAleatorio
-        /*view.tintColor = colorAleatorio2*/
-    }
-    @IBAction func dameUnaHamburguesa(){
-        Hambur.text = hamburguesas.regresaHamburguesa();
-    }
-    @IBAction func dameUnPrecio(){
+        Hamburguesa.text = hamburguesas.regresaHamburguesa();
         Precios.text = precios.regresaPrecio();
+        let colorAleatorio = colores.regresaColorAleatorio()
+        view.backgroundColor = colorAleatorio
     }
-
 }
-
