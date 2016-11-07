@@ -12,6 +12,15 @@
 		8C9636AD1DCFD8CA00DF4157 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 8C9636AB1DCFD8CA00DF4157 /* Main.storyboard */; };
 		8C9636AF1DCFD8CA00DF4157 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 8C9636AE1DCFD8CA00DF4157 /* Assets.xcassets */; };
 		8C9636B21DCFD8CA00DF4157 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 8C9636B01DCFD8CA00DF4157 /* LaunchScreen.storyboard */; };
+		8C9636BA1DCFDA1C00DF4157 /* BurguerStruct.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8C9636B91DCFDA1C00DF4157 /* BurguerStruct.swift */; };
+		8C9636C91DCFE39900DF4157 /* cientifico.png in Resources */ = {isa = PBXBuildFile; fileRef = 8C9636C81DCFE39900DF4157 /* cientifico.png */; };
+		8C9636CF1DCFF93900DF4157 /* Carioca.png in Resources */ = {isa = PBXBuildFile; fileRef = 8C9636CA1DCFF93900DF4157 /* Carioca.png */; };
+		8C9636D01DCFF93900DF4157 /* Azteca.png in Resources */ = {isa = PBXBuildFile; fileRef = 8C9636CB1DCFF93900DF4157 /* Azteca.png */; };
+		8C9636D11DCFF93900DF4157 /* Inca.png in Resources */ = {isa = PBXBuildFile; fileRef = 8C9636CC1DCFF93900DF4157 /* Inca.png */; };
+		8C9636D21DCFF93900DF4157 /* Criolla.png in Resources */ = {isa = PBXBuildFile; fileRef = 8C9636CD1DCFF93900DF4157 /* Criolla.png */; };
+		8C9636D31DCFF93900DF4157 /* Gaucha.png in Resources */ = {isa = PBXBuildFile; fileRef = 8C9636CE1DCFF93900DF4157 /* Gaucha.png */; };
+		8C9636D51DCFFA5700DF4157 /* hamburguesa.png in Resources */ = {isa = PBXBuildFile; fileRef = 8C9636D41DCFFA5700DF4157 /* hamburguesa.png */; };
+		8CEA6C761DD00A7900E08A0D /* nube.png in Resources */ = {isa = PBXBuildFile; fileRef = 8CEA6C751DD00A7900E08A0D /* nube.png */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -22,6 +31,16 @@
 		8C9636AE1DCFD8CA00DF4157 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		8C9636B11DCFD8CA00DF4157 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		8C9636B31DCFD8CA00DF4157 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		8C9636B91DCFDA1C00DF4157 /* BurguerStruct.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = BurguerStruct.swift; sourceTree = "<group>"; };
+		8C9636BC1DCFDE7F00DF4157 /* MyPlayground.playground */ = {isa = PBXFileReference; lastKnownFileType = file.playground; path = MyPlayground.playground; sourceTree = "<group>"; };
+		8C9636C81DCFE39900DF4157 /* cientifico.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = cientifico.png; sourceTree = "<group>"; };
+		8C9636CA1DCFF93900DF4157 /* Carioca.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = Carioca.png; sourceTree = "<group>"; };
+		8C9636CB1DCFF93900DF4157 /* Azteca.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = Azteca.png; sourceTree = "<group>"; };
+		8C9636CC1DCFF93900DF4157 /* Inca.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = Inca.png; sourceTree = "<group>"; };
+		8C9636CD1DCFF93900DF4157 /* Criolla.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = Criolla.png; sourceTree = "<group>"; };
+		8C9636CE1DCFF93900DF4157 /* Gaucha.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = Gaucha.png; sourceTree = "<group>"; };
+		8C9636D41DCFFA5700DF4157 /* hamburguesa.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = hamburguesa.png; sourceTree = "<group>"; };
+		8CEA6C751DD00A7900E08A0D /* nube.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = nube.png; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -54,14 +73,40 @@
 		8C9636A61DCFD8CA00DF4157 /* Hamburguesas */ = {
 			isa = PBXGroup;
 			children = (
+				8C9636BF1DCFE28F00DF4157 /* imagenes */,
+				8C9636BB1DCFDE2700DF4157 /* playgrounds */,
 				8C9636A71DCFD8CA00DF4157 /* AppDelegate.swift */,
 				8C9636A91DCFD8CA00DF4157 /* ViewController.swift */,
 				8C9636AB1DCFD8CA00DF4157 /* Main.storyboard */,
 				8C9636AE1DCFD8CA00DF4157 /* Assets.xcassets */,
 				8C9636B01DCFD8CA00DF4157 /* LaunchScreen.storyboard */,
 				8C9636B31DCFD8CA00DF4157 /* Info.plist */,
+				8C9636B91DCFDA1C00DF4157 /* BurguerStruct.swift */,
 			);
 			path = Hamburguesas;
+			sourceTree = "<group>";
+		};
+		8C9636BB1DCFDE2700DF4157 /* playgrounds */ = {
+			isa = PBXGroup;
+			children = (
+				8C9636BC1DCFDE7F00DF4157 /* MyPlayground.playground */,
+			);
+			name = playgrounds;
+			sourceTree = "<group>";
+		};
+		8C9636BF1DCFE28F00DF4157 /* imagenes */ = {
+			isa = PBXGroup;
+			children = (
+				8CEA6C751DD00A7900E08A0D /* nube.png */,
+				8C9636D41DCFFA5700DF4157 /* hamburguesa.png */,
+				8C9636CA1DCFF93900DF4157 /* Carioca.png */,
+				8C9636CB1DCFF93900DF4157 /* Azteca.png */,
+				8C9636CC1DCFF93900DF4157 /* Inca.png */,
+				8C9636CD1DCFF93900DF4157 /* Criolla.png */,
+				8C9636CE1DCFF93900DF4157 /* Gaucha.png */,
+				8C9636C81DCFE39900DF4157 /* cientifico.png */,
+			);
+			name = imagenes;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -123,9 +168,17 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				8C9636CF1DCFF93900DF4157 /* Carioca.png in Resources */,
+				8C9636D11DCFF93900DF4157 /* Inca.png in Resources */,
+				8C9636D51DCFFA5700DF4157 /* hamburguesa.png in Resources */,
+				8C9636D01DCFF93900DF4157 /* Azteca.png in Resources */,
 				8C9636B21DCFD8CA00DF4157 /* LaunchScreen.storyboard in Resources */,
+				8C9636D21DCFF93900DF4157 /* Criolla.png in Resources */,
 				8C9636AF1DCFD8CA00DF4157 /* Assets.xcassets in Resources */,
+				8CEA6C761DD00A7900E08A0D /* nube.png in Resources */,
+				8C9636C91DCFE39900DF4157 /* cientifico.png in Resources */,
 				8C9636AD1DCFD8CA00DF4157 /* Main.storyboard in Resources */,
+				8C9636D31DCFF93900DF4157 /* Gaucha.png in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -136,6 +189,7 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				8C9636BA1DCFDA1C00DF4157 /* BurguerStruct.swift in Sources */,
 				8C9636AA1DCFD8CA00DF4157 /* ViewController.swift in Sources */,
 				8C9636A81DCFD8CA00DF4157 /* AppDelegate.swift in Sources */,
 			);
@@ -259,6 +313,7 @@
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				INFOPLIST_FILE = Hamburguesas/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 10.0;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				PRODUCT_BUNDLE_IDENTIFIER = com.mapachesoftware.Hamburguesas;
 				PRODUCT_NAME = "$(TARGET_NAME)";
@@ -271,6 +326,7 @@
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				INFOPLIST_FILE = Hamburguesas/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 10.0;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				PRODUCT_BUNDLE_IDENTIFIER = com.mapachesoftware.Hamburguesas;
 				PRODUCT_NAME = "$(TARGET_NAME)";
@@ -297,6 +353,7 @@
 				8C9636B81DCFD8CA00DF4157 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};
