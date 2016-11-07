@@ -12,7 +12,7 @@
 		8C9636AD1DCFD8CA00DF4157 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 8C9636AB1DCFD8CA00DF4157 /* Main.storyboard */; };
 		8C9636AF1DCFD8CA00DF4157 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 8C9636AE1DCFD8CA00DF4157 /* Assets.xcassets */; };
 		8C9636B21DCFD8CA00DF4157 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 8C9636B01DCFD8CA00DF4157 /* LaunchScreen.storyboard */; };
-		8C9636BA1DCFDA1C00DF4157 /* BurguerStruct.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8C9636B91DCFDA1C00DF4157 /* BurguerStruct.swift */; };
+		8C9636BA1DCFDA1C00DF4157 /* Datos.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8C9636B91DCFDA1C00DF4157 /* Datos.swift */; };
 		8C9636C91DCFE39900DF4157 /* cientifico.png in Resources */ = {isa = PBXBuildFile; fileRef = 8C9636C81DCFE39900DF4157 /* cientifico.png */; };
 		8C9636CF1DCFF93900DF4157 /* Carioca.png in Resources */ = {isa = PBXBuildFile; fileRef = 8C9636CA1DCFF93900DF4157 /* Carioca.png */; };
 		8C9636D01DCFF93900DF4157 /* Azteca.png in Resources */ = {isa = PBXBuildFile; fileRef = 8C9636CB1DCFF93900DF4157 /* Azteca.png */; };
@@ -31,7 +31,7 @@
 		8C9636AE1DCFD8CA00DF4157 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		8C9636B11DCFD8CA00DF4157 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		8C9636B31DCFD8CA00DF4157 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
-		8C9636B91DCFDA1C00DF4157 /* BurguerStruct.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = BurguerStruct.swift; sourceTree = "<group>"; };
+		8C9636B91DCFDA1C00DF4157 /* Datos.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Datos.swift; sourceTree = "<group>"; };
 		8C9636BC1DCFDE7F00DF4157 /* MyPlayground.playground */ = {isa = PBXFileReference; lastKnownFileType = file.playground; path = MyPlayground.playground; sourceTree = "<group>"; };
 		8C9636C81DCFE39900DF4157 /* cientifico.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = cientifico.png; sourceTree = "<group>"; };
 		8C9636CA1DCFF93900DF4157 /* Carioca.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = Carioca.png; sourceTree = "<group>"; };
@@ -81,7 +81,7 @@
 				8C9636AE1DCFD8CA00DF4157 /* Assets.xcassets */,
 				8C9636B01DCFD8CA00DF4157 /* LaunchScreen.storyboard */,
 				8C9636B31DCFD8CA00DF4157 /* Info.plist */,
-				8C9636B91DCFDA1C00DF4157 /* BurguerStruct.swift */,
+				8C9636B91DCFDA1C00DF4157 /* Datos.swift */,
 			);
 			path = Hamburguesas;
 			sourceTree = "<group>";
@@ -189,7 +189,7 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				8C9636BA1DCFDA1C00DF4157 /* BurguerStruct.swift in Sources */,
+				8C9636BA1DCFDA1C00DF4157 /* Datos.swift in Sources */,
 				8C9636AA1DCFD8CA00DF4157 /* ViewController.swift in Sources */,
 				8C9636A81DCFD8CA00DF4157 /* AppDelegate.swift in Sources */,
 			);
